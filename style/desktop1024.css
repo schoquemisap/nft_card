@@ -1,0 +1,14 @@
+.component-card{
+    width: 100%;
+}
+#app{
+    padding: 10vh 6vw 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;/* CREANDO LAS FILAS*/
+    grid-template-rows: 20px 1fr 1fr; /* CREANDO LAS FILAS*/
+    grid-gap: 1rem; /* espacio entre cartas */
+    justify-items: center; /*centreado de botones*/
+}
+.Container{
+    grid-column: 1/6;
+}
